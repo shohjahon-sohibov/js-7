@@ -1,0 +1,114 @@
+body {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(/img/2012427.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  background-attachment: fixed;
+}
+.form {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: -45px;
+  margin-top: 30px;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: rgba(255, 127, 80, 0.7);
+}
+
+.shopping-input, .search-input {
+  width: 60%;
+  padding-left: 20px;
+  margin-left: 80px;
+  margin-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 11px;
+  border-radius: 5px;
+  border: 1px solid black;
+  color: #555;
+  font-size: 18px;
+}
+
+.button {
+  margin-left: 80px;
+  font-size: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: coral;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover, .search-button:hover {
+  transform: rotateY(360deg);
+  transition: .9s ease;
+  cursor: pointer;
+}
+
+.text {
+  position: absolute;
+  top: 157px;
+  left: 708px;
+  color: #555;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+  background-color: black;
+}
+
+.search-form {
+  width: 440px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-input {
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-button {
+  font-size: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: coral;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-result {
+  position: absolute;
+  top: 305px;
+  left: 682px;
+  color: #555;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+  background-color: black;
+}
+
+.shopping-list {
+  margin-left: 430px;
+  margin-top: 30px;
+  font-size: 22px;
+}
